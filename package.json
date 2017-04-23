@@ -1,0 +1,33 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "Conversor de kilogramos a libras y viceversa.",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertofragoso/conversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "kilogramos",
+    "libras",
+    "javascript",
+    "js"
+  ],
+  "author": "Alberto Fragoso <yeahbetoyeah@gmail.com> (https://albertofragoso.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albertofragoso/conversor/issues"
+  },
+  "homepage": "https://github.com/albertofragoso/conversor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
